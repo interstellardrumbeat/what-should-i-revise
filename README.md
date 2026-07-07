@@ -1,4 +1,4 @@
-# Diagnostic Self-Assessment Tool
+# What Should I Revise? - Diagnostic Self-Assessment Tool
 
 A simple free tool for students to self-assess their knowledge of IB topics per subject (currently only Chemistry) and choose what to revise accordingly.
 

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "chem-structure-1-1-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 1. Models of the particulate nature of matter",
+    "subtopic": "Structure 1.1 - Introduction to the particulate nature of matter",
+    "difficulty": "Sample",
+    "question": "Which statement best describes the particulate model of matter?",
+    "options": [
+      "Matter is continuous and has no empty spaces.",
+      "Only gases are made of particles.",
+      "Matter is made of tiny particles in constant motion.",
+      "Particles disappear during physical changes."
+    ],
+    "answer": 2,
+    "explanation": "The particulate model treats matter as tiny particles with spaces between them and motion that depends on temperature."
+  },
+  {
+    "id": "chem-structure-1-2-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 1. Models of the particulate nature of matter",
+    "subtopic": "Structure 1.2 - The nuclear atom",
+    "difficulty": "Sample",
+    "question": "Where is most of the mass of an atom found?",
+    "options": [
+      "In the electron shells",
+      "In the nucleus",
+      "In the outermost energy level",
+      "Between the electrons and nucleus"
+    ],
+    "answer": 1,
+    "explanation": "Most atomic mass comes from protons and neutrons, which are found in the nucleus."
+  },
+  {
+    "id": "chem-structure-1-3-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 1. Models of the particulate nature of matter",
+    "subtopic": "Structure 1.3 - Electron configurations",
+    "difficulty": "Sample",
+    "question": "Which electron configuration is correct for a neutral sodium atom?",
+    "options": [
+      "2,7,2",
+      "2,8,2",
+      "2,8,1",
+      "2,6,3"
+    ],
+    "answer": 2,
+    "explanation": "Sodium has 11 electrons, arranged as 2,8,1 in a simple shell model."
+  },
+  {
+    "id": "chem-structure-1-4-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 1. Models of the particulate nature of matter",
+    "subtopic": "Structure 1.4 - Counting particles by mass: The mole",
+    "difficulty": "Sample",
+    "question": "What does one mole of a substance represent?",
+    "options": [
+      "1 gram of particles",
+      "6.02 × 10²³ particles"
+      "The mass of one atom",
+      "Exactly 22.7 dm³ of any substance",
+    ],
+    "answer": 1,
+    "explanation": "One mole contains Avogadro's number of particles, approximately 6.02 × 10²³."
+  },
+  {
+    "id": "chem-structure-1-5-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 1. Models of the particulate nature of matter",
+    "subtopic": "Structure 1.5 - Ideal gases",
+    "difficulty": "Sample",
+    "question": "For an ideal gas, increasing temperature at constant pressure usually causes volume to...",
+    "options": [
+      "increase",
+      "decrease",
+      "remain exactly zero",
+      "become independent of particle number"
+    ],
+    "answer": 0,
+    "explanation": "At constant pressure, gas volume increases as absolute temperature increases."
+  },
+  {
+    "id": "chem-structure-2-1-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 2. Models of bonding and structure",
+    "subtopic": "Structure 2.1 - The ionic model",
+    "difficulty": "Sample",
+    "question": "In the ionic model, bonding is mainly due to attraction between...",
+    "options": [
+      "shared electron pairs",
+      "oppositely charged ions",
+      "neutral atoms only",
+      "temporary dipoles only"
+    ],
+    "answer": 1,
+    "explanation": "Ionic bonding is electrostatic attraction between oppositely charged ions."
+  },
+  {
+    "id": "chem-structure-2-2-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 2. Models of bonding and structure",
+    "subtopic": "Structure 2.2 - The covalent model",
+    "difficulty": "Sample",
+    "question": "A covalent bond is best described as...",
+    "options": [
+      "complete transfer of electrons",
+      "attraction between metal cations and delocalized electrons",
+      "a force only found between noble gases",
+      "a shared pair of electrons between atoms"
+    ],
+    "answer": 3,
+    "explanation": "Covalent bonds involve shared pairs of electrons between atoms."
+  },
+  {
+    "id": "chem-structure-2-3-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 2. Models of bonding and structure",
+    "subtopic": "Structure 2.3 - The metallic model",
+    "difficulty": "Sample",
+    "question": "The metallic model includes positive metal ions surrounded by...",
+    "options": [
+      "localized chloride ions",
+      "shared electron pairs only",
+      "fixed neutral molecules",
+      "delocalized electrons"
+    ],
+    "answer": 3,
+    "explanation": "Metals are often modelled as positive ions in a lattice with delocalized electrons."
+  },
+  {
+    "id": "chem-structure-2-4-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 2. Models of bonding and structure",
+    "subtopic": "Structure 2.4 - From models to materials",
+    "difficulty": "Sample",
+    "question": "Why is diamond very hard according to bonding models?",
+    "options": [
+      "It contains only weak intermolecular forces.",
+      "Its ions slide easily past each other.",
+      "It has a giant covalent network.",
+      "Its particles are separated by large gaps."
+    ],
+    "answer": 2,
+    "explanation": "Diamond is hard because each carbon atom is strongly covalently bonded in a giant network."
+  },
+  {
+    "id": "chem-structure-3-1-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 3. Classification of matter",
+    "subtopic": "Structure 3.1 - The periodic table: Classification of elements",
+    "difficulty": "Sample",
+    "question": "Elements in the same group of the periodic table usually have similar chemical properties because they have the same number of...",
+    "options": [
+      "neutrons",
+      "valence electrons",
+      "electron shells",
+      "isotopes"
+    ],
+    "answer": 1,
+    "explanation": "Elements in a group have the same number of valence electrons, which strongly influences chemical behaviour."
+  },
+  {
+    "id": "chem-structure-3-2-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 3. Classification of matter",
+    "subtopic": "Structure 3.2 - Functional groups: Classification of organic compounds",
+    "difficulty": "Sample",
+    "question": "Which functional group is characteristic of alcohols?",
+    "options": [
+      "Carboxyl, -COOH",
+      "Amino, -NH₂",
+      "Hydroxyl, -OH",
+      "Carbonyl in the middle of a chain"
+    ],
+    "answer": 2,
+    "explanation": "Alcohols contain the hydroxyl functional group, –OH."
+  },
+  {
+    "id": "chem-reactivity-1-1-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 1. What drives chemical reactions?",
+    "subtopic": "Reactivity 1.1 - Measuring enthalpy change",
+    "difficulty": "Sample",
+    "question": "In a simple calorimetry experiment, the temperature change is used to estimate...",
+    "options": [
+      "enthalpy change",
+      "atomic number",
+      "electron configuration",
+      "isotopic abundance"
+    ],
+    "answer": 0,
+    "explanation": "Calorimetry uses measured temperature changes to calculate heat energy changes and estimate enthalpy changes."
+  },
+  {
+    "id": "chem-reactivity-1-2-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 1. What drives chemical reactions?",
+    "subtopic": "Reactivity 1.2 - Energy cycles in reactions",
+    "difficulty": "Sample",
+    "question": "Hess's law is useful because enthalpy change depends on...",
+    "options": [
+      "initial and final states only",
+      "the speed of the reaction only",
+      "the colour of the reactants",
+      "the number of steps written in the mechanism"
+    ],
+    "answer": 0,
+    "explanation": "Hess's law works because enthalpy is a state function."
+  },
+  {
+    "id": "chem-reactivity-1-3-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 1. What drives chemical reactions?",
+    "subtopic": "Reactivity 1.3 - Energy from fuels",
+    "difficulty": "Sample",
+    "question": "A fuel is useful because it can release energy during...",
+    "options": [
+      "filtration",
+      "combustion",
+      "crystallisation",
+      "distillation only"
+    ],
+    "answer": 1,
+    "explanation": "Fuels release useful energy when they undergo combustion."
+  },
+  {
+    "id": "chem-reactivity-1-4-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "HL",
+    "topic": "Reactivity 1. What drives chemical reactions?",
+    "subtopic": "Reactivity 1.4 - Entropy and spontaneity (Additional higher level)",
+    "difficulty": "Sample",
+    "question": "A process with increasing entropy generally has...",
+    "options": [
+      "fewer possible arrangements",
+      "greater dispersal of energy or matter",
+      "no change in particle distribution",
+      "complete elimination of disorder"
+    ],
+    "answer": 1,
+    "explanation": "Entropy is often associated with the dispersal of energy or matter and the number of possible arrangements."
+  },
+  {
+    "id": "chem-reactivity-2-1-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 2. How much, how fast and how far?",
+    "subtopic": "Reactivity 2.1 - How much? The amount of chemical change",
+    "difficulty": "Sample",
+    "question": "Stoichiometric coefficients in a balanced equation show the ratio of...",
+    "options": [
+      "atomic radii",
+      "electron shell energies",
+      "boiling points",
+      "amounts in moles"
+    ],
+    "answer": 3,
+    "explanation": "Balanced equations show reacting ratios in moles."
+  },
+  {
+    "id": "chem-reactivity-2-2-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 2. How much, how fast and how far?",
+    "subtopic": "Reactivity 2.2 - How fast? The rate of chemical change",
+    "difficulty": "Sample",
+    "question": "Reaction rate is usually described as the change in concentration per unit...",
+    "options": [
+      "mass",
+      "volume",
+      "temperature",
+      "time"
+    ],
+    "answer": 3,
+    "explanation": "Rate measures how quickly reactant or product concentration changes over time."
+  },
+  {
+    "id": "chem-reactivity-2-3-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 2. How much, how fast and how far?",
+    "subtopic": "Reactivity 2.3 - How far? The extent of chemical change",
+    "difficulty": "Sample",
+    "question": "At dynamic equilibrium, the forward and reverse reaction rates are...",
+    "options": [
+      "both zero",
+      "equal",
+      "always increasing",
+      "unrelated"
+    ],
+    "answer": 1,
+    "explanation": "At dynamic equilibrium, forward and reverse reactions continue at equal rates."
+  },
+  {
+    "id": "chem-reactivity-3-1-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 3. What are the mechanisms of chemical change?",
+    "subtopic": "Reactivity 3.1 - Proton transfer reactions",
+    "difficulty": "Sample",
+    "question": "A Brønsted-Lowry acid is a species that...",
+    "options": [
+      "accepts an electron pair",
+      "donates an electron",
+      "donates a proton",
+      "forms only ionic bonds"
+    ],
+    "answer": 2,
+    "explanation": "A Brønsted-Lowry acid donates a proton, H⁺."
+  },
+  {
+    "id": "chem-reactivity-3-2-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 3. What are the mechanisms of chemical change?",
+    "subtopic": "Reactivity 3.2 - Electron transfer reactions",
+    "difficulty": "Sample",
+    "question": "Oxidation can be described as...",
+    "options": [
+      "gain of electrons",
+      "loss of protons",
+      "gain of neutrons",
+      "loss of electrons"
+    ],
+    "answer": 3,
+    "explanation": "Oxidation is loss of electrons; reduction is gain of electrons."
+  },
+  {
+    "id": "chem-reactivity-3-3-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 3. What are the mechanisms of chemical change?",
+    "subtopic": "Reactivity 3.3 - Electron sharing reactions",
+    "difficulty": "Sample",
+    "question": "Electron sharing is central to the formation of...",
+    "options": [
+      "metallic lattices only",
+      "covalent bonds",
+      "nuclear isotopes",
+      "ionic charges only"
+    ],
+    "answer": 1,
+    "explanation": "Covalent bonding is based on atoms sharing electron pairs."
+  },
+  {
+    "id": "chem-reactivity-3-4-001",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Reactivity 3. What are the mechanisms of chemical change?",
+    "subtopic": "Reactivity 3.4 - Electron-pair sharing reactions",
+    "difficulty": "Sample",
+    "question": "In a coordinate bond, the shared electron pair is provided by...",
+    "options": [
+      "both atoms equally at the start",
+      "one atom",
+      "a neutron",
+      "the nucleus only"
+    ],
+    "answer": 1,
+    "explanation": "In a coordinate bond, both electrons in the shared pair come from the same atom."
+  }
+]

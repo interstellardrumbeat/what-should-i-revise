@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple tool for students to self-assess their knowledge of IB Chemistry topics and choose what to revise accordingly." />
+  <title>IB Chemistry Diagnostic</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <p class="eyebrow">Diagnostic Self-Assessment Tool</p>
+        <h1>IB Chemistry Diagnostic</h1>
+      </div>
+      <button id="resetAppBtn" class="ghost-button" type="button">Reset</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="setupView" class="card view active">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Pre-release version.</p>
+          <h2>Choose IB Chemistry topics or specific subtopics.</h2>
+          <p class="muted">
+            This version currently contains one sample question per subtopic.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <strong>What you get:</strong>
+          <ul>
+            <li>Topic and subtopic selection</li>
+            <li>One-question-at-a-time quiz</li>
+            <li>Topic score breakdown</li>
+            <li>Subtopic score breakdown</li>
+            <li>Answer review</li>
+          </ul>
+        </div>
+      </div>
+
+      <form id="setupForm" class="setup-form">
+        <div class="form-section">
+          <div class="section-title-row">
+            <div>
+              <h3>Select IB Chemistry content</h3>
+              <p class="muted compact-text">Tick a whole topic, or select only the subtopics listed underneath.</p>
+            </div>
+            <button id="selectAllTopicsBtn" class="link-button" type="button">Select all</button>
+          </div>
+          <div id="topicList" class="syllabus-list" aria-live="polite">
+            <p class="muted">Loading syllabus...</p>
+          </div>
+        </div>
+
+        <div class="form-section two-column">
+          <div>
+            <h3>Questions per selected subtopic</h3>
+            <label class="radio-card">
+              <input type="radio" name="questionsPerSubtopic" value="1" checked />
+              <span>1 per selected subtopic, for faster but less accurate diagnostic</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="questionsPerSubtopic" value="2" />
+              <span>2 per selected subtopic</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="questionsPerSubtopic" value="all" />
+              <span>All available questions, for the most accurate diagnostic</span>
+            </label>
+          </div>
+
+          <div>
+            <h3>Level</h3>
+            <label class="radio-card">
+              <input type="radio" name="level" value="all" checked />
+              <span>All levels</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="level" value="SL" />
+              <span>SL only</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="level" value="HL" />
+              <span>HL only</span>
+            </label>
+          </div>
+        </div>
+
+        <p id="setupError" class="error-message" role="alert"></p>
+        <button class="primary-button" type="submit">Start Diagnostic</button>
+      </form>
+    </section>
+
+    <section id="quizView" class="card view">
+      <div class="quiz-topbar">
+        <div>
+          <p id="questionCounter" class="eyebrow">Question 1 of 1</p>
+          <h2 id="questionTopic">Topic</h2>
+          <p id="questionSubtopic" class="muted compact-text">Subtopic</p>
+        </div>
+        <div class="score-pill" id="levelPill">SL</div>
+      </div>
+
+      <div class="progress-track" aria-hidden="true">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+
+      <article class="question-card">
+        <p id="questionText" class="question-text"></p>
+        <div id="optionsList" class="options-list"></div>
+      </article>
+
+      <p id="quizError" class="error-message" role="alert"></p>
+
+      <div class="nav-row">
+        <button id="prevQuestionBtn" class="secondary-button" type="button">Previous</button>
+        <button id="nextQuestionBtn" class="primary-button" type="button">Next</button>
+      </div>
+    </section>
+
+    <section id="resultsView" class="card view">
+      <div class="results-header">
+        <div>
+          <p class="eyebrow">Diagnostic complete</p>
+          <h2>Your results</h2>
+        </div>
+        <div class="overall-score">
+          <span id="overallPercent">0%</span>
+          <small id="overallFraction">0 / 0</small>
+        </div>
+      </div>
+
+      <div class="results-grid">
+        <section>
+          <h3>Topic breakdown</h3>
+          <div id="topicResults" class="topic-results"></div>
+        </section>
+
+        <aside class="recommendation-box">
+          <h3>Recommendation</h3>
+          <p id="recommendationText"></p>
+          <a class="primary-link" href="#" id="bookingLink">Book a focused lesson</a>
+        </aside>
+      </div>
+
+      <section class="subtopic-results-section">
+        <h3>Subtopic breakdown</h3>
+        <div id="subtopicResults" class="topic-results"></div>
+      </section>
+
+      <div class="review-section">
+        <div class="section-title-row">
+          <h3>Review answers</h3>
+          <button id="toggleReviewBtn" class="secondary-button" type="button">Show review</button>
+        </div>
+        <div id="reviewList" class="review-list hidden"></div>
+      </div>
+
+      <div class="nav-row">
+        <button id="restartBtn" class="secondary-button" type="button">Try again</button>
+        <button id="newDiagnosticBtn" class="primary-button" type="button">New diagnostic</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        A simple tool for students to self-assess their knowledge of IB Chemistry topics and choose what to revise accordingly.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

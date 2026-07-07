@@ -1,6 +1,6 @@
-# Diagnostic Self-Assessment Tool - IB Chemistry
+# Diagnostic Self-Assessment Tool
 
-A simple tool for students to self-assess their knowledge of IB Chemistry topics and choose what to revise accordingly.
+A simple free tool for students to self-assess their knowledge of IB topics per subject (currently only Chemistry) and choose what to revise accordingly.
 
 This version uses:
 

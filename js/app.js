@@ -1,4 +1,4 @@
-const DATA_URL = "./data/chemistry.json";
+const DATA_URL = "data/chemistry.json";
 const STORAGE_KEY = "diagnosticTool.chemistry.subtopics";
 
 const SUBTOPIC_SEPARATOR = "|||";

@@ -64,9 +64,9 @@
     "question": "What does one mole of a substance represent?",
     "options": [
       "1 gram of particles",
-      "6.02 × 10²³ particles"
+      "6.02 × 10²³ particles",
       "The mass of one atom",
-      "Exactly 22.7 dm³ of any substance",
+      "Exactly 22.7 dm³ of any substance"
     ],
     "answer": 1,
     "explanation": "One mole contains Avogadro's number of particles, approximately 6.02 × 10²³."

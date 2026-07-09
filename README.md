@@ -162,7 +162,7 @@ http://localhost:8000
 Possible future features:
 
 - [ ] Add actual questions (instead of samples)
-- [ ] Add images handling for question with figures
+- [x] Add images handling for question with figures
 - [ ] Add report export (PDF) or report email options
 - [ ] Add better revision recommendation system
 - [ ] Add a working booking link for tutoring session

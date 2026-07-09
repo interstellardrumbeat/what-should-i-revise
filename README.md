@@ -59,7 +59,7 @@ Students can select:
 
 ## How to edit questions
 
-No topics or subtopics are hardcoded in the HTML. Questions must be added  to `chemistry.json` using the same topic and subtopic names.
+No topics or subtopics are hardcoded in the app. Questions must be added  to `chemistry.json` using the same topic and subtopic names.
 
 Each question uses this format:
 

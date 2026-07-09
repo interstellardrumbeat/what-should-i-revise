@@ -73,6 +73,11 @@ Each question uses this format:
   "subtopic": "Structure 1.1 - Introduction to the particulate nature of matter",
   "difficulty": "Sample",
   "question": "Which statement best describes the particulate model of matter?",
+  "image": {
+    "src": "assets/questions/test.png",
+    "alt": "Test image.",
+    "caption": "This is a test image"
+  },
   "options": [
     "Matter is made of tiny particles in constant motion.",
     "Matter is continuous and has no empty spaces.",
@@ -82,6 +87,15 @@ Each question uses this format:
   "answer": 0,
   "explanation": "The particulate model treats matter as tiny particles with spaces between them and motion that depends on temperature."
 }
+```
+
+If the question has no image, simply remove the block:
+```
+"image": {
+    "src": "assets/questions/test.png",
+    "alt": "Test image.",
+    "caption": "This is a test image"
+  },
 ```
 
 IMPORTANT: `answer` is the zero-based index of the correct option.

@@ -29,6 +29,9 @@ const els = {
   levelPill: document.getElementById("levelPill"),
   progressBar: document.getElementById("progressBar"),
   questionText: document.getElementById("questionText"),
+  questionImageBlock: document.getElementById("questionImageBlock"),
+  questionImage: document.getElementById("questionImage"),
+  questionImageCaption: document.getElementById("questionImageCaption"),
   optionsList: document.getElementById("optionsList"),
   prevQuestionBtn: document.getElementById("prevQuestionBtn"),
   nextQuestionBtn: document.getElementById("nextQuestionBtn"),
@@ -278,6 +281,18 @@ function renderQuestion() {
   els.levelPill.textContent = `${question.level} · ${question.difficulty}`;
   els.progressBar.style.width = `${((state.currentIndex + 1) / state.quiz.length) * 100}%`;
   els.questionText.textContent = question.question;
+  if (question.image && question.image.src) {
+    els.questionImage.src = question.image.src;
+    els.questionImage.alt = question.image.alt || "";
+    els.questionImageCaption.textContent = question.image.caption || "";
+    els.questionImageCaption.classList.toggle("hidden", !question.image.caption);
+    els.questionImageBlock.classList.remove("hidden");
+  } else {
+    els.questionImage.src = "";
+    els.questionImage.alt = "";
+    els.questionImageCaption.textContent = "";
+    els.questionImageBlock.classList.add("hidden");
+  }
 
   const selectedAnswer = state.answers[question.id];
 

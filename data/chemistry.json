@@ -8,6 +8,11 @@
     "subtopic": "Structure 1.1 - Introduction to the particulate nature of matter",
     "difficulty": "Sample",
     "question": "Which statement best describes the particulate model of matter?",
+    "image": {
+      "src": "assets/questions/test.png",
+      "alt": "Test image.",
+      "caption": "This is a test image"
+    },
     "options": [
       "Matter is continuous and has no empty spaces.",
       "Only gases are made of particles.",

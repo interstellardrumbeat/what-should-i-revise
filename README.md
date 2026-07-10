@@ -2,6 +2,8 @@
 
 A simple free tool for students to self-assess their knowledge of IB topics per subject (currently only Chemistry) and choose what to revise accordingly.
 
+[APP](https://interstellardrumbeat.github.io/what-should-i-revise/)
+
 This version uses:
 
 - HTML

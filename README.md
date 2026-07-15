@@ -165,6 +165,7 @@ Possible future features:
 
 - [ ] Add actual questions (instead of samples)
 - [x] Add images handling for question with figures
+- [ ] Add level-based questions
 - [ ] Add report export (PDF) or report email options
 - [ ] Add better revision recommendation system
 - [ ] Add a working booking link for tutoring session

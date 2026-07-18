@@ -344,6 +344,7 @@ h3 {
   font-size: clamp(1.2rem, 2vw, 1.55rem);
   font-weight: 750;
   margin-bottom: 20px;
+  white-space: pre-line;
 }
 
 .options-list {

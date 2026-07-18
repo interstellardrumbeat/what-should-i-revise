@@ -498,7 +498,7 @@ function renderReviewList() {
       return `
         <article class="review-card ${isCorrect ? "correct" : "incorrect"}">
           <p class="eyebrow">Question ${index + 1} · ${escapeHtml(question.subtopic)}</p>
-          <h3>${escapeHtml(question.question)}</h3>
+          <h3 class="review-question-text">${escapeHtml(question.question)}</h3>
           <p class="muted">${escapeHtml(question.topic)}</p>
           <p>
             <span class="review-label">Your answer:</span>
@@ -508,7 +508,7 @@ function renderReviewList() {
             <span class="review-label">Correct answer:</span>
             <span class="correct-text">${escapeHtml(correctAnswerText)}</span>
           </p>
-          <p class="muted">${escapeHtml(question.explanation)}</p>
+          <p class="muted review-explanation">${escapeHtml(question.explanation)}</p>
         </article>
       `;
     })

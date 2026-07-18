@@ -347,6 +347,11 @@ h3 {
   white-space: pre-line;
 }
 
+.review-question-text,
+.review-explanation {
+  white-space: pre-line;
+}
+
 .options-list {
   display: grid;
   gap: 12px;

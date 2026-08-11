@@ -22,6 +22,24 @@
     "answer": 2,
     "explanation": "The particulate model treats matter as tiny particles with spaces between them and motion that depends on temperature."
   },
+    {
+    "id": "chem-s1-1-e02",
+    "subject": "Chemistry",
+    "syllabus": "IB Chemistry",
+    "level": "SL",
+    "topic": "Structure 1. Models of the particulate nature of matter",
+    "subtopic": "Structure 1.1 - Introduction to the particulate nature of matter",
+    "difficulty": "Easy",
+    "question": "Below are three statements about mixtures. Which of them are correct?\n\nI Mixtures can contain elements and compounds.\n\nII The components of a mixture must be in the same state.\n\nIII The components of a mixture keep their own properties.",
+    "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is B because:\n\nMixtures can be made from elements, compounds, or both\n\nThey don’t have to be in the same state, for example smoke is a mixture made of solid particles in air\n\nThe physical and chemical properties of the substances that make up mixtures don’t change when they are in a mixture\n\nA, C and D are incorrect as they don’t match the correct descriptions"
+  },
   {
     "id": "chem-structure-1-2-001",
     "subject": "Chemistry",

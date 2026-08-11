@@ -22,23 +22,23 @@
     "answer": 2,
     "explanation": "The particulate model treats matter as tiny particles with spaces between them and motion that depends on temperature."
   },
-    {
-    "id": "chem-s1-1-e02",
+  {
+    "id": "chem-s1-4-h01",
     "subject": "Chemistry",
     "syllabus": "IB Chemistry",
     "level": "SL",
     "topic": "Structure 1. Models of the particulate nature of matter",
-    "subtopic": "Structure 1.1 - Introduction to the particulate nature of matter",
-    "difficulty": "Easy",
-    "question": "Below are three statements about mixtures. Which of them are correct?\nI Mixtures can contain elements and compounds.\nII The components of a mixture must be in the same state.\nIII The components of a mixture keep their own properties.",
+    "subtopic": "Structure 1.4 - Counting particles by mass: The mole",
+    "difficulty": "Hard",
+    "question": "10 cm³ of methane and 10 cm³ of ethane were sparked with an excess of oxygen. Once cooled, the remaining gas was passed through aqueous potassium hydroxide, which absorbs carbon dioxide.\n\nAssume all measurements were taken at 25 °C and 1 atm pressure.\n\nWhat volume of gas is absorbed by the alkali?",
     "options": [
-      "I and II only",
-      "I and III only",
-      "II and III only",
-      "I, II and III"
+      "45 cm³",
+      "30 cm³",
+      "20 cm³",
+      "10 cm³"
     ],
     "answer": 1,
-    "explanation": "The correct answer is B because:\n\nMixtures can be made from elements, compounds, or both\n\nThey don’t have to be in the same state, for example smoke is a mixture made of solid particles in air\n\nThe physical and chemical properties of the substances that make up mixtures don’t change when they are in a mixture\n\nA, C and D are incorrect as they don’t match the correct descriptions"
+    "explanation": "The correct answer is B because:\n\n1 Combustion reactions:\n\nCH₄ + 2O₂ → CO₂ + 2H₂O\n\nC₂H₆ + 3.5O₂ → 2CO₂ + 3H₂O\n\n2 Once cooled the only product still as a gas is CO₂; this will react with the potassium hydroxide\n\nMoles of carbon dioxide produced CO₂:\n\nFrom the methane reaction - 1 mole of CO₂\n\nFrom the ethane reaction - 2 moles of CO₂\n\n3 By Avogadro's law, equal volumes of gases contain equal number of moles\n\nThis means that gas volumes react in the same proportions as the moles\n\n10 cm³ methane ⇒ 10 cm³ of CO₂\n\n10 cm³ ethane ⇒ 20 cm³ of CO₂\n\n4 Total volume of gas produced 30 cm³"
   },
   {
     "id": "chem-structure-1-2-001",
